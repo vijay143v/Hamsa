@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001524;
+}
+.container{
+    background-color: white;
+    min-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top:370px;
+    flex-wrap: wrap
+}
+.heading{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   text-decoration: underline;
+}
+.form-main{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: #001524;
+}
+#number-input{
+    height: 30px;
+    width: 30%;
+    font-weight: bolder;
+    padding-left: 10px;
+}
